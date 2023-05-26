@@ -1,6 +1,4 @@
-import apiKey from "./api.js"; //Need to have an api key. Here api key is stored in a hidden file. The api key can be obtained from https://openexchangerates.org/
-
-const apiUrl = `https://openexchangerates.org/api/latest.json?app_id=${apiKey}`;
+import apiUrl from "./api.js"; //Need to have an api key. Here api key is stored in a hidden file. 
 
 const secondsForRetrivingData = 3*24*3600; //The api call will be made once in every 3 days
 
