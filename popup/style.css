@@ -1,0 +1,35 @@
+
+body {
+    width: 300px;
+    height: 160px;
+    padding: 10px;
+    background-color: #202124;
+    color: whitesmoke
+}
+
+#heading{
+    text-align: center;
+}
+
+#footer{
+    text-align: center;
+}
+
+.outerBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 40%;
+}
+.innerBox{
+    padding: 7px;
+}
+
+select{
+    width: 60%;
+}
+input{
+    width: 35%;
+}
+
