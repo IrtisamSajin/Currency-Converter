@@ -1,6 +1,6 @@
 import apiUrl from "./api.js"; //Need to have an api key. Here api key is stored in a hidden file. 
 
-const secondsForRetrivingData = 1//3*24*3600; //The api call will be made once in every 3 days
+const secondsForRetrivingData = 3*24*3600; //The api call will be made once in every 3 days
 
 async function setData() {
     let footer = document.getElementById("footer")
