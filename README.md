@@ -1,4 +1,6 @@
 # Currency-Converter
+Chrome Web Store link: <a target=”_blank” href="https://chrome.google.com/webstore/detail/kfajmjadkkhkihidkbffmomhjmcilpei">Currency Converter</a>
+
 A real-time currency converter chrome extension.
 Key features include:
 <ul>
