@@ -10,5 +10,5 @@ Key features include:
 <li> Can select from 170 different currencies </li>
 <li> Remembers the last selected currencies by preserving the selections in chrome local storage </li>
 <li>Handles "No internet connection" error by loading up the last stored data</li>
-<li>No need to rewrite the input currency value when any currency is chanfed as the output is automatically changed</li>
+<li>No need to rewrite the input currency value when any currency is changed as the output is automatically changed</li>
 </ul>
