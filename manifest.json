@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Currency Converter",
     "description": "Convert Currencies with current exchange rate",
-    "version": "1.0",
+    "version": "1.1",
     "action": {
       "default_popup": "popup/index.html"
     },
