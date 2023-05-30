@@ -14,12 +14,14 @@ getData();
 
 //changes in the values of input and output
 input.addEventListener('input', function () {
+  if(input.value<0)input.value*=(-1);
   getRates(outputCurrency.value,baseCurrency.value).then((exchangeRate) => {
     if(typeof exchangeRate ==  "number")output.value=Math.floor(input.value*exchangeRate*10000)/10000;
   })
 });
 
 output.addEventListener('input',function () {
+  if(output.value<0)output.value*=(-1);
   getRates(baseCurrency.value,outputCurrency.value).then((exchangeRate) => {
     if(typeof exchangeRate ==  "number")input.value=Math.floor(output.value*exchangeRate*10000)/10000;
   })
